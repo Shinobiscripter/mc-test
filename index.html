@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
     <meta name="description" content="EaglercraftZ 1.20 test directory HTML page" />
     <meta name="keywords" content="eaglercraft, eaglercraftz, minecraft, 1.20, 1.20.4" />
-    <title>NebulaClient 1.20.4</title>
+    <base href="https://gcore.jsdelivr.net/gh/martinmmcyt/minecraft@main/1.20.4/">
+    <title>EaglercraftZ 1.20</title>
     <meta property="og:locale" content="en-US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="EaglercraftZ 1.20" />
     <meta property="og:description" content="test directory HTML page" />
-    <script type="text/javascript" src="./classes.js"></script>
+    <link type="image/png" rel="shortcut icon" href="favicon.png" />
+    <script type="text/javascript" src="classes.js"></script>
     <script type="text/javascript">
         "use strict";
         window.addEventListener("load", function() {
@@ -22,7 +24,8 @@
                 window.eaglercraftXOpts = {
                     demoMode: false,
                     container: "game_frame",
-                    assetsURI: "./assets.epk",
+                    assetsURI: "https://raw.githack.com/MartinMMCyt/minecraft/main/1.20.4/assets.epk",
+                    localesURI: "lang/",
                     worldsDB: "worlds",
                     logInvalidCerts: true,
                     crashOnUncaughtExceptions: true,
