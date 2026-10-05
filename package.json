@@ -1,0 +1,23 @@
+{
+  "name": "mc-test",
+  "version": "1.0.0",
+  "description": "EaglercraftZ 1.20 - Minecraft web client",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shinobiscripter/mc-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shinobiscripter/mc-test/issues"
+  },
+  "homepage": "https://github.com/Shinobiscripter/mc-test#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
